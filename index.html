@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Tools Input</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Developer Tools Input</h1>
+        <form id="tools-form" method="post" action="/generate">
+            <label for="tools">Kullandiginiz teknolojileri girin (virgulle ayirin):</label>
+            <input type="text" id="tools" name="tools" required>
+            <button type="submit">Generate Interview Questions</button>
+        </form>
+        <div id="output"></div>
+    </div>
+</body>
+</html>
